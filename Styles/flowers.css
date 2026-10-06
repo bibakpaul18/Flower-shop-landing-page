@@ -7,25 +7,34 @@
 }
 
 /* shared style */
+.section-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 24px;
+}
 .section-description {
     font-size: 13.5px;
     font-weight: 400;
     color: #272727;
-    line-height: 30px;
+    line-height: 22.5px;
 }
-.btn-primary{
+
+.btn-primary {
     font-size: 15px;
     font-weight: 600;
     color: #FFFFFF;
     padding: 19px 30px;
-    background-color:#E55473;
+    background-color: #E55473;
     border-radius: 8px;
     border: none;
-    transition:0.5s;
+    transition: 0.5s;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: rgba(135, 182, 41, 0.753);
 }
+
 /* header style */
 header {
     /* height:780px; */
@@ -37,25 +46,73 @@ header {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     gap: 72.75px;
     padding-top: 50px;
 }
+
 .banner .banner-title {
     font-size: 60px;
     font-weight: 800;
     color: #272727;
 }
+
 .banner .banner-description * {
     margin-bottom: 32px;
     max-width: 531px;
-  
+
 }
-.banner-img{
+
+.banner-img {
     width: 477px;
     height: 600px;
 }
+
 .banner .banner-img img {
     width: 100%;
 }
+
+/* hero section styles */
+.hero-description{
+    max-width: 446px;
+    text-align: center;
+    margin:134px auto 0;
+}
+.hero-content{
+    width: 75%;
+    max-width: 1440px;
+    margin:36px auto 0;
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+    align-items: end;
+}
+.hero-content .flower .flower-img{
+    width:234px;
+    height: 322px;
+    border-radius:300px 300px 0 0;
+    padding: 80px 60px 0;
+    display: flex;
+}
+.hero-content .flower .pink{
+    background-color:rgba(167, 33, 98, 0.15);
+}
+.hero-content .flower .blue{
+    background-color:rgba(5, 151, 160, 0.15);
+}
+.hero-content .flower .green{
+    background-color:rgba(71, 125, 17, 0.15);
+}
+.hero-content .flower .flower-img img{
+    width:100%;
+}
+.hero-content .flower p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #272727;
+    text-align: center;
+    text-decoration: underline;
+    margin-top:24px;
+}
+

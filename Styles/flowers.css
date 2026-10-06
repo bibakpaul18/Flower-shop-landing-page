@@ -107,6 +107,7 @@ header,#deal-section {
 }
 .hero-content .flower .flower-img img{
     width:100%;
+    /* object-fit: cover; */
 }
 .hero-content .flower p{
     font-size: 18px;
@@ -148,5 +149,19 @@ header,#deal-section {
 }
 .deal-img img{
     width: 100%;
+}
+/* social-section styles */
+.social-gallery{
+    width:75%;
+    max-width: 1440px;
+    margin:20px auto 0;
+    display: flex;
+    justify-content: center;
+    gap:18px;
+}
+.flower-img{
+    width: 100%;
+    height: 295px;
+    object-fit: cover;
 }
 

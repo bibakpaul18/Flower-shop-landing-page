@@ -18,6 +18,7 @@
     font-weight: 400;
     color: #272727;
     line-height: 22.5px;
+    margin-bottom: 24px;
 }
 
 .btn-primary {
@@ -36,7 +37,7 @@
 }
 
 /* header style */
-header {
+header,#deal-section {
     /* height:780px; */
     background-color: rgba(229, 84, 115, 0.1);
 }
@@ -116,7 +117,7 @@ header {
     margin-top:24px;
 }
 /* services section style */
-#services{
+#services-section{
     width: 75%;
     max-width:1440px;
     margin:128px auto;
@@ -129,5 +130,23 @@ header {
     align-items:center;
     text-align: center;
     padding: 65px 132px;
+}
+/* deal-section style */
+.deal-container{
+    display:flex;
+    gap: 139.5px;
+    justify-content: center;
+    align-items: center;
+    padding:75px 0;
+}
+.deal-description{
+    max-width:446px;
+    text-align: center;
+}
+.deal-img{
+    max-width:238.5px;
+}
+.deal-img img{
+    width: 100%;
 }
 

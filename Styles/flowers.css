@@ -115,4 +115,19 @@ header {
     text-decoration: underline;
     margin-top:24px;
 }
+/* services section style */
+#services{
+    width: 75%;
+    max-width:1440px;
+    margin:128px auto;
+    background-color:rgba(39, 39, 39, 0.05);
+    border-radius: 10px;
+}
+.service-highlights{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align: center;
+    padding: 65px 132px;
+}
 
